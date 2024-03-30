@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-ascii_value = ord('a')
-for a in range(26):
-    print(chr(ascii_value + a), end='')
-print()
+#!/usr/bin/python
+for j in range(ord('a'), ord('z') + 1):
+    print(f'{chr(j)}', end='')
